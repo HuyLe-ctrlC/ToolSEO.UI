@@ -1,0 +1,11 @@
+export { default as Home } from "../Home/Home";
+export { default as SearchResult } from "../SearchResult/SearchResult";
+export { default as CheckPosition } from "../CheckPosition/CheckPosition";
+export { default as FreeDoc } from "../FreeDoc/FreeDoc";
+export { default as AutoPost } from "../AutoPost/AutoPost";
+export { default as ExploreKey } from "../ExploreKey/ExploreKey";
+export { default as Optimal } from "../Optimal/Optimal";
+export { default as SpinContent } from "../SpinContent/SpinContent";
+export { default as MyLogin } from "../MyLogin/MyLogin";
+export { default as ScrapeHistory } from "../ScrapeHistory/ScrapeHistory";
+export { default as CheckIndex } from "../CheckIndex/CheckIndex";

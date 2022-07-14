@@ -1,0 +1,16 @@
+.freeDocText {
+  margin: 0;
+  line-height: 3;
+  margin-left: 12px;
+  color: #000;
+}
+
+.freeDocLink {
+  display: flex;
+  text-decoration: none;
+}
+
+.freeDocIcon {
+  font-size: 18px;
+  margin-top: 16px;
+}

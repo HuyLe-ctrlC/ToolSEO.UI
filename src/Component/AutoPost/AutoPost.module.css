@@ -1,0 +1,56 @@
+.autoPostBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.inputBlock {
+  background-color: #333;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.outputBlock {
+  background-color: #8b8b8b;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.outputBlock:before {
+  content: "";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-basis: 10%;
+  height: 100px;
+  border-inline-start: 5px solid #ccc;
+  top: -100px;
+}
+
+.inputLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.inputText {
+  font-weight: bold;
+  color: white;
+}
+
+.inputButton {
+  border-radius: 25px;
+  font-weight: bold;
+}

@@ -1,0 +1,100 @@
+.searchContent {
+  text-align: center;
+}
+
+.searchContentKeywords {
+  max-width: 70%;
+}
+
+.searchButton {
+  margin-top: 20px;
+}
+
+.searchButtonIcon {
+  background: black;
+  max-width: 24%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+.searchButtonIcon:hover {
+  background: black;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 9%), 0 2px 3px -1px rgb(0 0 0 / 7%);
+  transform: scale(1.02);
+  color: #ffffff;
+}
+
+.exportToExcel {
+  text-align: right;
+}
+
+.bgHeader {
+  background-color: #dee2e6;
+}
+
+.bgButton {
+  background-color: #ffda6a;
+}
+
+.setImage {
+  width: 150px;
+  height: 150px;
+  margin-left: 24px;
+  object-fit: cover;
+}
+
+.sliStyle {
+  border: 1px solid #ccc;
+  margin: 2px 2px;
+  display: block;
+}
+
+.sliLeft {
+  width: 50%;
+}
+
+.headingRight {
+  width: 50%;
+}
+
+.listSli {
+  width: 100%;
+  border-right: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.itemSli {
+  width: auto;
+  height: auto;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 4px;
+  margin: 4px;
+}
+
+.listHeading {
+  width: 100%;
+  border-right: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.itemHeading {
+  width: auto;
+  height: auto;
+  color: #000;
+  margin: 4px;
+}
+
+.titleLeftRight {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}

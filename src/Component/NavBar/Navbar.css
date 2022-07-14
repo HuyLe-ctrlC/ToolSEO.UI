@@ -1,0 +1,12 @@
+.Nav-zalo {
+  background-color: white;
+  color: blue !important;
+  border-radius: 2px;
+  padding: 2px;
+  /* margin: 0px 2px; */
+  font-weight: bold;
+}
+
+.line-height-nav {
+  line-height: 3;
+}

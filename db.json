@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "_id": "6260d0fd815e4c8c2b8cec76",
+      "query": "Dịch vụ bốc xếp TPHCM",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "6260d0fc815e4c8c2b8cec70",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-04-21T03:35:25.211Z",
+      "__v": 0
+    },
+    {
+      "_id": "625594f4f31f8e15cab844ed",
+      "query": "Dịch Vụ Bốc Xếp Long An",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "6255409a311c1968e36b4983",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-04-12T15:04:20.475Z",
+      "__v": 0
+    },
+    {
+      "_id": "6255426f311c1968e36b4993",
+      "query": "Dịch Vụ Bốc Xếp Hà Nội",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "6255426e311c1968e36b498d",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-04-12T09:12:15.208Z",
+      "__v": 0
+    },
+    {
+      "_id": "62553ceca8b28c14a7a3b298",
+      "query": "Dịch Vụ Bốc Xếp Tây Ninh",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "62553ceba8b28c14a7a3b292",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-04-12T08:48:44.016Z",
+      "__v": 0
+    },
+    {
+      "_id": "62553cc6fd89f702b810fc15",
+      "query": "Dịch vụ bốc xếp Đồng Nai",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "62553cc5fd89f702b810fc0f",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-04-12T08:48:06.611Z",
+      "__v": 0
+    },
+    {
+      "_id": "622e00cce9bad43f7cad28a5",
+      "query": "Dịch Vụ Bốc Xếp KCN Phúc Long",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "622e00cce9bad43f7cad289f",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-03-13T14:33:48.711Z",
+      "__v": 0
+    },
+    {
+      "_id": "622dfa08a1d960a111c870c3",
+      "query": "dịch vụ bốc xếp KCN cầu tràm",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "622dfa08a1d960a111c870bd",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-03-13T14:04:56.881Z",
+      "__v": 0
+    },
+    {
+      "_id": "622df9be67f39817f7f41908",
+      "query": "dịch vụ bốc xếp KCN tân đông hiệp",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "622df9be67f39817f7f41902",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-03-13T14:03:42.981Z",
+      "__v": 0
+    },
+    {
+      "_id": "622df99567f39817f7f418fe",
+      "query": "dịch vụ bốc xếp KCN tân hương",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "622df99467f39817f7f418f8",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-03-13T14:03:01.055Z",
+      "__v": 0
+    },
+    {
+      "_id": "6225bb423d9582986577b4d3",
+      "query": "Dịch Vụ Bốc Xếp KCN Tân Hương",
+      "parameters": {
+        "location": null,
+        "country": "US",
+        "language": "en",
+        "search_engine": "google.com",
+        "numberOfPages": 10,
+        "device": "desktop",
+        "performance": false
+      },
+      "serpId": "6225bb413d9582986577b4cd",
+      "userId": "6059ed9c8183f30004b2a9e5",
+      "date": "2022-03-07T07:58:58.361Z",
+      "__v": 0
+    }
+  ]
+}

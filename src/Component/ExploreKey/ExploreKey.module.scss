@@ -1,0 +1,38 @@
+.wrapper {
+  margin-top: 12px;
+  display: flex;
+  .leftBlock {
+    flex: 3;
+
+    .leftBlockBtn {
+      margin-top: 12px;
+      display: block;
+    }
+    .leftBlockInput {
+      width: 90%;
+    }
+  }
+
+  .rightBlock {
+    border: 1px solid #ccc;
+    flex: 7;
+  }
+}
+
+.listSli {
+  width: 100%;
+  border-right: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.itemSli {
+  width: auto;
+  height: auto;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 4px;
+  margin: 4px;
+}

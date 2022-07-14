@@ -1,0 +1,14 @@
+.colorDivider {
+  position: relative;
+}
+
+.colorDivider:before {
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 10px;
+  top: 0;
+  left: 0;
+}
+
+
