@@ -34,13 +34,19 @@ import axios from "axios";
 //import sidebar css from react-pro-sidebar module and our custom css
 import "react-pro-sidebar/dist/css/styles.css";
 import "../SideBar/SideBar.css";
-import { Link, useNavigate, Outlet } from "react-router-dom";
+import { Link, useNavigate, Outlet, NavLink } from "react-router-dom";
 import Constants from "../assets/Constants";
 
 const clientId =
   "1004211496035-tbpmlj99vtgabhj6qviinlrojmpf3nt2.apps.googleusercontent.com";
 
 export default function MyLogin() {
+  let activeStyle = {
+    // textDecoration: "underline",
+  };
+
+  let activeClassName = "underline";
+
   let navigate = useNavigate();
   const [show, setShow] = useState(true);
 
@@ -178,9 +184,15 @@ export default function MyLogin() {
                       onMouseEnter={() => setHoveredItem("Scraping")}
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/search-result">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/search-result"
+                      >
                         Scraping
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                     <MenuItem
                       icon={<AiOutlineCheckSquare />}
@@ -190,9 +202,15 @@ export default function MyLogin() {
                       onMouseEnter={() => setHoveredItem("Check Index")}
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/check-position">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/check-position"
+                      >
                         Kiểm tra thứ hạng từ khóa
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                     <MenuItem
                       icon={<RiPencilLine />}
@@ -206,9 +224,15 @@ export default function MyLogin() {
                       }
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/explore-key">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/explore-key"
+                      >
                         Khám phá từ khóa SLI
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                     <MenuItem
                       icon={<BiCog />}
@@ -220,9 +244,15 @@ export default function MyLogin() {
                       onMouseEnter={() => setHoveredItem("Tối ưu nội dung SEO")}
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/optimal">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/optimal"
+                      >
                         Tối ưu nội dung SEO
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                     {/* <MenuItem
                       icon={<BsFillFilePostFill />}
@@ -246,9 +276,15 @@ export default function MyLogin() {
                       onMouseEnter={() => setHoveredItem("Spin nội dung")}
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/spin-content">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/spin-content"
+                      >
                         Spin nội dung
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                     {/* <MenuItem
                       icon={<BiBookOpen />}
@@ -274,9 +310,15 @@ export default function MyLogin() {
                       onMouseEnter={() => setHoveredItem("ScrapeHistory")}
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/Scrape-history">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/Scrape-history"
+                      >
                         ScrapeHistory
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                     <MenuItem
                       icon={<BiHistory />}
@@ -286,9 +328,15 @@ export default function MyLogin() {
                       onMouseEnter={() => setHoveredItem("Kiểm tra index")}
                       onMouseLeave={resetHover}
                     >
-                      <Link className="text-black" to="/check-index">
+                      <NavLink
+                        className="text-black"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                        to="/check-index"
+                      >
                         Kiểm tra index
-                      </Link>
+                      </NavLink>
                     </MenuItem>
                   </Menu>
                 </SidebarContent>
@@ -302,13 +350,16 @@ export default function MyLogin() {
                           onLogoutSuccess={logout}
                           icon={false}
                         >
-                          <Link
+                          <NavLink
                             className="text-black fw-bold"
                             to="/"
+                            style={({ isActive }) =>
+                              isActive ? activeStyle : undefined
+                            }
                             onClick={() => setShow(true)}
                           >
                             Logout
-                          </Link>
+                          </NavLink>
                         </GoogleLogout>
                       )}
                     </MenuItem>

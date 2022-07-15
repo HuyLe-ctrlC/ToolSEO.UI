@@ -32,9 +32,15 @@ import { BsFillCheckSquareFill, BsFillFilePostFill } from "react-icons/bs";
 //import sidebar css from react-pro-sidebar module and our custom css
 import "react-pro-sidebar/dist/css/styles.css";
 import "./SideBar.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const Header = () => {
+  let activeStyle = {
+    textDecoration: "underline",
+  };
+
+  let activeClassName = "underline";
+
   //create initial menuCollapse state using useState hook(khởi tạo trang thái sidebar)
   const [menuCollapse, setMenuCollapse] = useState(false);
   const [hoveredItem, setHoveredItem] = useState("");
@@ -83,29 +89,29 @@ const Header = () => {
                   onMouseLeave={resetHover}
                   // onClick={handleClick}
                 >
-                  <Link className="text-black hover-white" to="/home">
+                  <NavLink className="text-black hover-white" to="/home">
                     Home
-                  </Link>
+                  </NavLink>
                 </MenuItem>
-                <MenuItem
-                  icon={<AiOutlineFileSearch />}
-                  active={hoveredItem === "Scraping" ? "active" : undefined}
-                  onMouseEnter={() => setHoveredItem("Scraping")}
-                  onMouseLeave={resetHover}
-                >
-                  <Link className="text-black hover-white" to="/search-result">
+                <MenuItem icon={<AiOutlineFileSearch />}>
+                  <NavLink
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                    to="/search-result"
+                  >
                     Scraping
-                  </Link>
+                  </NavLink>
                 </MenuItem>
-                <MenuItem
-                  icon={<BsFillCheckSquareFill />}
-                  active={hoveredItem === "Check Index" ? "active" : undefined}
-                  onMouseEnter={() => setHoveredItem("Check Index")}
-                  onMouseLeave={resetHover}
-                >
-                  <Link className="text-black hover-white" to="/check-index">
+                <MenuItem icon={<BsFillCheckSquareFill />}>
+                  <NavLink
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                    to="/check-index"
+                  >
                     Kiểm tra Index
-                  </Link>
+                  </NavLink>
                 </MenuItem>
                 <MenuItem
                   icon={<RiPencilLine />}
@@ -117,9 +123,9 @@ const Header = () => {
                   onMouseEnter={() => setHoveredItem("Khám phá từ khóa SLI")}
                   onMouseLeave={resetHover}
                 >
-                  <Link className="text-black hover-white" to="/explore-key">
+                  <NavLink className="text-black hover-white" to="/explore-key">
                     Khám phá từ khóa SLI
-                  </Link>
+                  </NavLink>
                 </MenuItem>
                 <MenuItem
                   icon={<BiCog />}
