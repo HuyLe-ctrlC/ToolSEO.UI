@@ -9,3 +9,4 @@ export { default as SpinContent } from "../SpinContent/SpinContent";
 export { default as MyLogin } from "../MyLogin/MyLogin";
 export { default as ScrapeHistory } from "../ScrapeHistory/ScrapeHistory";
 export { default as CheckIndex } from "../CheckIndex/CheckIndex";
+export { default as SideBar } from "../SideBar/SideBar";

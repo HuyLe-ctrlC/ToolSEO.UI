@@ -17,28 +17,14 @@ import {
   MyLogin,
   ScrapeHistory,
   CheckIndex,
+  SideBar,
 } from "./Component/assets/routes";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <BrowserRouter>
-    <Routes>
-      {/* Changed */}
-      <Route path="/" element={<App />}>
-        <Route path="/home" element={<Home />} />
-        <Route path="search-result" element={<SearchResult />} />
-        <Route path="check-position" element={<CheckPosition />} />
-        <Route path="free-doc" element={<FreeDoc />} />
-        <Route path="auto-post" element={<AutoPost />} />
-        <Route path="explore-key" element={<ExploreKey />} />
-        <Route path="optimal" element={<Optimal />} />
-        <Route path="spin-content" element={<SpinContent />} />
-        <Route path="scrape-history" element={<ScrapeHistory />} />
-        <Route path="check-index" element={<CheckIndex />} />
-      </Route>
-      <Route path="/" element={<MyLogin />} />
-    </Routes>
+    <App />
   </BrowserRouter>
 );
 
